@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* style do Banner */
+
+/* style dos produtos */
+
+.container-slider {
+  width: 89vw;
+  height: auto;
+}
+
+.slider {
+  display: flex !important;
+  background-color: ffff;
+  border-radius: 2px;
+  column-gap: 1rem;
+}
+
+.product-container {
+  display: flex !important;
+  max-width: 270px;
+  border: 1px solid rgba(59, 59, 59, 0.384);
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);
+  margin: 0px 20px 20px 0px;
+  gap: 0.1rem;
+}
+
+.container-heart {
+  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart.png);
+  display: flex !important;
+  position: relative !important;
+  max-width: 30px;
+  max-height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  background-size: 30px;
+  z-index: 1;
+  transition: 0.3s all ease !important;
+  cursor: pointer;
+  left: 75%;
+  top: 20px;
+}
+
+.container-heart:hover {
+  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart-red.png) !important;
+}
+
+.item {
+  position: relative !important;
+  display: flex !important;
+  align-items: center;
+  text-decoration: none;
+  max-width: 100%;
+  max-height: 100%;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+  align-items: center;
+  right: 30px;
+}
+
+.product-image {
+  position: relative;
+  display: center;
+  justify-content: center;
+  width: 220px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15px 0 0 0;
+  left: 23px;
+}
+
+.description {
+  position: relative !important;
+  left: 1%;
+  padding: 5px 0 5px 5px;
+}
+.discount {
+  text-decoration: line-through;
+}
+
+.star {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  color: rgb(255, 196, 0);
+}
+
+.slick-prev {
+  left: -45px !important;
+}
+
+.slick-next {
+  right: -45px !important;
+}
+
+.slick-next,
+.slick-prev {
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 2 !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: slick;
+  font-size: 40px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgba(131, 118, 118, 0.781) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

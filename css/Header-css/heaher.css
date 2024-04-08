@@ -1,0 +1,487 @@
+#html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.body {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: fixed;
+  flex-direction: column;
+}
+/* Minha tela  */
+.div-conteiner {
+  width: 100%;
+}
+
+.aside {
+  height: 10vw;
+}
+
+.logo-div {
+  background-color: #6e0023;
+  height: 2vw;
+}
+
+.img-superior {
+  width: 2.7vw;
+}
+
+.nav {
+  background-color: #e10052;
+  width: 100%;
+  height: 7vw;
+  position: relative;
+  z-index: 2;
+}
+
+.style-nav {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  bottom: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.log-inferior {
+  position: relative;
+  bottom: 1.5vw;
+  right: 2vw;
+  width: 10%;
+  padding: 0rem 0rem 0rem 5rem;
+}
+
+.buscador-div {
+  position: relative;
+  bottom: 9vw;
+  left: 15%;
+}
+
+.log-div {
+  height: 10vw;
+}
+
+.buscador-input {
+  width: 40vw;
+  height: 4vw;
+  border: 1px solid #333;
+  border-radius: 5px 0 0 5px;
+  border-right: 0px solid;
+}
+
+.button {
+  position: absolute;
+  height: 4.25vw;
+  width: 5vw;
+  border: 1px solid #333;
+  border-left: 0px solid;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  align-items: center;
+  background-color: white;
+  color: #fff;
+}
+
+.lupa {
+  position: relative;
+  right: 1rem;
+  bottom: 0.1rem;
+  height: 6rem;
+}
+
+.button:hover {
+  background-color: #dcdcdc;
+}
+
+.entra-div,
+.carrinho-div,
+.favorito-div {
+  position: relative;
+  display: inline;
+  bottom: 12.2vw;
+  left: 64%;
+  margin: 0 10px 0 10px;
+}
+
+.style-img {
+  width: 2vw;
+  top: 0.5vw;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  bottom: 10vw;
+  color: white;
+  font-size: 12px;
+}
+
+#rotbar {
+  position: relative;
+  width: 100%;
+  height: 2vw;
+  bottom: 1.5vw;
+  background-color: white;
+}
+
+.local-div {
+  border-right: 1px solid gray;
+}
+.local-a {
+  margin: 0px 0px 0px 30px;
+}
+
+.local-imagem {
+  width: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.local-div,
+.infantil,
+.plussize,
+.dresses,
+.Skirts,
+.blouses,
+.new,
+.accessory {
+  position: relative;
+  top: 0vw;
+  padding: 0 5px 0px 30px;
+  display: inline;
+}
+
+.style-rotbar,
+.local-a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */
+@media screen and (max-width: 1024) {
+  .body {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-conteiner {
+    position: flex;
+    width: 100%;
+  }
+
+  .aside {
+    height: 15vw;
+  }
+
+  .logo-div {
+    background-color: #6e0023;
+    height: 20%;
+  }
+
+  .img-superior {
+    width: 5vw;
+  }
+
+  .nav {
+    background-color: #e10052;
+    width: 100%;
+    height: 55%;
+  }
+
+  .style-nav {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .log-inferior {
+    width: 10%;
+    padding: 0rem 0rem 0rem 5rem;
+  }
+
+  .buscador-div {
+    position: relative;
+    bottom: 8vw;
+    left: 15%;
+  }
+
+  .buscador-form {
+  }
+
+  .buscador-input {
+    width: 40vw;
+    height: 4vw;
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px;
+    border-right: 0px solid;
+  }
+
+  .button {
+    position: absolute;
+    height: 4.4vw;
+    width: 5vw;
+    border: 1px solid #333;
+    border-left: 0px solid;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+  }
+
+  .lupa {
+    position: relative;
+    right: 2rem;
+    bottom: 0.7rem;
+    height: 6rem;
+  }
+
+  .button:hover {
+    background-color: #dcdcdc;
+  }
+
+  .entra-div,
+  .carrinho-div,
+  .favorito-div {
+    position: relative;
+    display: inline;
+    bottom: 12.5vw;
+    left: 63%;
+    margin: 0 10px 0 10px;
+  }
+
+  .style-img {
+    width: 3vw;
+    top: 1vw;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10vw;
+    color: white;
+    font-size: 12px;
+  }
+
+  #rotbar {
+    position: relative;
+    width: 100%;
+    height: 5vw;
+    bottom: 1.5vw;
+    background-color: white;
+  }
+
+  .local-div {
+    border-right: 1px solid gray;
+  }
+  .local-a {
+    margin: 0px 0px 0px 30px;
+  }
+
+  .local-imagem {
+    width: 15px;
+    position: relative;
+    top: 5px;
+  }
+
+  .local-div,
+  .infantil,
+  .plussize,
+  .dresses,
+  .Skirts,
+  .blouses,
+  .new,
+  .accessory {
+    position: relative;
+    top: 0vw;
+    padding: 0 5px 0px 30px;
+    display: inline;
+  }
+
+  .style-rotbar,
+  .local-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .body {
+    font-size: 18px;
+  }
+
+  .div-conteiner {
+    position: fixed;
+    width: 1000%;
+  }
+
+  .aside {
+    height: 15vw;
+  }
+
+  .logo-div {
+    background-color: #6e0023;
+    height: 45%;
+  }
+
+  .img-superior {
+    position: relative;
+    bottom: 25%;
+    width: 10vw;
+  }
+
+  .log-inferior {
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+    width: 2%;
+    padding: 0rem 0rem 0rem 5rem;
+  }
+
+  .nav {
+    background-color: #e10052;
+    width: 90%;
+    height: 90%;
+  }
+
+  .style-nav {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .buscador-div {
+    position: relative;
+    bottom: 17vw;
+    left: 10rem;
+  }
+
+  .buscador-form {
+  }
+
+  .buscador-input {
+    width: 50vw;
+    height: 6vw;
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px;
+    border-right: 0px solid;
+  }
+
+  .button {
+    position: absolute;
+    height: 4.4vw;
+    width: 5vw;
+    border: 1px solid #333;
+    border-left: 0px solid;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+  }
+
+  .lupa {
+    position: relative;
+    right: 2rem;
+    bottom: 0.7rem;
+    height: 6rem;
+  }
+
+  .button:hover {
+    background-color: #dcdcdc;
+  }
+
+  .entra-div,
+  .carrinho-div,
+  .favorito-div {
+    position: relative;
+    display: inline;
+    bottom: 12.5vw;
+    left: 63%;
+    margin: 0 10px 0 10px;
+  }
+
+  .style-img {
+    width: 3vw;
+    top: 1vw;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    bottom: 10vw;
+    color: white;
+    font-size: 12px;
+  }
+
+  #rotbar {
+    position: relative;
+    width: 100%;
+    height: 5vw;
+    top: 2vw;
+    background-color: white;
+  }
+
+  .local-div {
+    border-right: 1px solid gray;
+  }
+  .local-a {
+    margin: 0px 0px 0px 30px;
+  }
+
+  .local-imagem {
+    width: 15px;
+    position: relative;
+    top: 5px;
+  }
+
+  .local-div,
+  .infantil,
+  .plussize,
+  .dresses,
+  .Skirts,
+  .blouses,
+  .new,
+  .accessory {
+    position: relative;
+    top: 0vw;
+    padding: 0 5px 0px 30px;
+    display: inline;
+  }
+
+  .style-rotbar,
+  .local-a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+/* A barra de pesquisa fica fixed */
+
+.navFixed {
+  background-color: #e10052;
+  width: 100%;
+  position: fixed;
+  bottom: 84%;
+  height: 6vw;
+}

@@ -1,0 +1,35 @@
+ul,
+li {
+  margin: 0;
+  padding: 2px;
+  list-style: none;
+  text-decoration: none;
+}
+
+#Rootbar {
+  display: flex;
+  padding-top: 2vw;
+  color: black;
+  border-top: 2px solid #e10052;
+}
+
+.Lista1 {
+  padding: 0 0 2vw 10vw;
+}
+
+.Lista2 {
+  padding: 0 0 0vw 10vw;
+}
+
+.Lista3 {
+  padding: 0 0 0vw 10vw;
+}
+
+.footer {
+  text-decoration: none;
+  color: black;
+}
+
+.LI {
+  color: #e10052;
+}

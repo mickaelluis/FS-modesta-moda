@@ -12,43 +12,57 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  max-width: 100vw !important;
+  max-height: 70vw !important;
 }
 
 .container-baner-slider {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  height: 50vw !important;
-  width: auto !important;
-  margin: 10px 0 150px 0 !important;
+  display: flex;
+  justify-content: center t;
+  align-items: center;
+  margin: 10px 0 150px 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .baner-slider {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-direction: row !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .container-item-baner {
-  width: 100% !important;
-  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .baner-slider {
-  width: 100% !important;
-  height: 100% !important;
-  column-gap: 2rem !important;
+  max-width: 100%;
+  max-height: 100%;
+  column-gap: 2rem;
 }
 
 .item-baner {
-  width: 100% !important;
-  height: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .baner {
-  width: 1300px !important;
-  height: auto !important;
+  width: 100%;
+  height: auto;
+}
+
+.baner-slider > .slick-next .slick-prev {
+  display: block;
+  width: 20px;
+  height: 20px;
+  z-index: 0 !important;
 }
 
 /* style dos produtos */
@@ -142,23 +156,7 @@
   color: rgb(255, 196, 0);
 }
 
-.slick-prev {
-  left: -45px !important;
-}
-
-.slick-next {
-  right: -45px !important;
-}
-
-.slick-next,
-.slick-prev {
-  width: 50px !important;
-  height: 50px !important;
-  z-index: 1 !important;
-}
-
-.slick-next:before,
-.slick-prev:before {
+.slider > .slick-next:before {
   font-family: slick;
   font-size: 40px !important;
   line-height: 1;
@@ -166,4 +164,29 @@
   color: rgba(131, 118, 118, 0.781) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.slider > .slick-prev:before {
+  font-family: slick;
+  font-size: 40px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgba(131, 118, 118, 0.781) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider > .slick-next,
+.slick-prev {
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 1 !important;
+}
+
+.slider > .slick-prev {
+  left: -45px !important;
+}
+
+.slider > .slick-next {
+  right: -45px !important;
 }

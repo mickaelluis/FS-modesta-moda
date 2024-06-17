@@ -1,5 +1,5 @@
 {
-  "name": "fs-modesta-moda",
+  "name": "a",
   "version": "1.0.0",
   "description": "Site de e-commerce para minha irma",
   "main": "server.js",
@@ -11,15 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.3",
-    "express-session": "^1.17.1",
-    "connect-mongo": "^4.4.1",
     "connect-flash": "^0.1.1",
-    "path": "^0.12.7",
+    "connect-mongo": "^4.4.1",
     "csurf": "^1.11.0",
-    "ejs": "^3.1.6"
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
-  
 }

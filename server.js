@@ -13,7 +13,7 @@ mongoose.connect(process.env.CONNECTIONSTRING,
   })
   .catch(e => console.log(e));
 const session = require('express-session');
-const MongoStore = require('connect-mongo')(session);
+const MongoStore = require('connect-mongo' ) ;
 const flash = require('connect-flash');
 const routes = require('./routes');
 const path = require('path');
@@ -40,8 +40,8 @@ const sessionOptions = session({
 app.use(sessionOptions);
 app.use(flash());
 
-app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
+app.set('views', path.resolve(__dirname, 'src', 'views'));
 
 app.use(csrf());
 // Nossos próprios middlewares

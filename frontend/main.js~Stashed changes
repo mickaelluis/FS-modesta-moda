@@ -1,0 +1,30 @@
+import 'regenerator-runtime/runtime';
+import 'core-js/stable';
+
+import './assets/css/footer.css';
+import './assets/css/man.css';
+import './assets/css/header.css';
+
+
+// Importação das imagens
+import log from '../public/assets/Fotos/log.png';
+import top from '../public/assets/Fotos/top.jpg';
+import lupa from '../public/assets/Fotos/lupa.png';
+import coracao from '../public/assets/Fotos/coracao.png';
+import carrinho from '../public/assets/Fotos/carrinho.png';
+import PERFIL from '../public/assets/Fotos/PERFIL.png';
+import local from '../public/assets/Fotos/local.png';
+import protoRedondo from '../public/assets/Fotos/Produtos/Proto-redondo.jpeg';
+import desconto from '../public/assets/Fotos/DescontoPrincipal.jpeg'
+
+
+// Uso das imagens no HTML
+document.getElementById('desconto-img').src = desconto;
+document.getElementById('top-img').src = top;
+document.getElementById('logo-img').src = log;
+document.getElementById('lupa-img').src = lupa;
+document.getElementById('coracao-img').src = coracao;
+document.getElementById('carrinho-img').src = carrinho;
+document.getElementById('PERFIL-img').src = PERFIL;
+document.getElementById('local-img').src = local;
+document.getElementById('proto-redondo-img').src = protoRedondo;

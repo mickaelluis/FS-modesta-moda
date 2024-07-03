@@ -8,25 +8,38 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    rules: [{
-      exclude: /node_modules/,
-      test: /\.js$/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/env']
+    rules: [
+        {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/env']
+                }
+            }
+        },
+        {
+            test: /\.css$/,
+            use: [
+                 'style-loader','css-loader'
+            ]
+        },
+        {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+            use: [
+                {
+                    loader: 'file-loader',
+                  options: {
+                    name: '[name].[hash].[ext]',
+                    outputPath: 'images',
+                }
+                }
+            ] 
         }
-      }
-    },
-    {
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader'],
-    },
-    {
-      test: /\.(png|svg|jpg|jpeg|gif)$/,
-      type: 'asset/resource',
-    }
-  ]
-  },
-  devtool: 'source-map'
+    ]
+},
+devtool: 'source-map',
+mode: 'development' // ou 'production', dependendo do ambiente
 };

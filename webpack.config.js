@@ -1,7 +1,8 @@
 const path = require('path'); // CommonJS
+const { options } = require('./routes');
 
 module.exports = {
-  mode: 'production',
+    mode: 'development', // 'development' ou 'production', dependendo do ambiente
   entry: './frontend/main.js',
   output: {
     path: path.resolve(__dirname, 'public', 'assets', 'js'),
@@ -26,20 +27,18 @@ module.exports = {
             ]
         },
         {
-            test: /\.(png|svg|jpg|jpeg|gif)$/i,
-            type: 'asset/resource',
+            test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
             use: [
                 {
                     loader: 'file-loader',
-                  options: {
-                    name: '[name].[hash].[ext]',
-                    outputPath: 'images',
-                }
-                }
-            ] 
+                    options: {
+                        name: '[path][name].[ext]',
+                        outputPath: 'Fotos/', 
+                    },
+                },
+            ]
         }
     ]
-},
-devtool: 'source-map',
-mode: 'development' // ou 'production', dependendo do ambiente
+  },
+  devtool: 'source-map',
 };

@@ -110,6 +110,16 @@
   margin: 0 10px 0 10px;
 }
 
+#style-img {
+  width: 2vw;
+  top: 0.5vw;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  bottom: 10vw;
+  color: white;
+  font-size: 12px;
+}
 .style-img {
   width: 2vw;
   top: 0.5vw;

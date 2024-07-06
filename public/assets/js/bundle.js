@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n", "",{"version":3,"sources":["webpack://./frontend/assets/css/header.css"],"names":[],"mappings":"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","sourcesContent":["#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n#style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n", "",{"version":3,"sources":["webpack://./frontend/assets/css/header.css"],"names":[],"mappings":"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","sourcesContent":["#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n#style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -201,6 +201,156 @@ module.exports = function cssWithMappingToString(item) {
 
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/Produtos/Proto-redondo.jpeg":
+/*!*********************************************************!*\
+  !*** ./public/assets/Fotos/Produtos/Proto-redondo.jpeg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/Produtos/Proto-redondo.jpeg");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/baner/Baner-2.jpeg":
+/*!************************************************!*\
+  !*** ./public/assets/Fotos/baner/Baner-2.jpeg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/baner/Baner-2.jpeg");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/baner/descontoprincipal.jpeg":
+/*!**********************************************************!*\
+  !*** ./public/assets/Fotos/baner/descontoprincipal.jpeg ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/baner/descontoprincipal.jpeg");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/carrinho.png":
+/*!******************************************!*\
+  !*** ./public/assets/Fotos/carrinho.png ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/carrinho.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/coracao.png":
+/*!*****************************************!*\
+  !*** ./public/assets/Fotos/coracao.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/coracao.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/local.png":
+/*!***************************************!*\
+  !*** ./public/assets/Fotos/local.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/local.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/log.png":
+/*!*************************************!*\
+  !*** ./public/assets/Fotos/log.png ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/log.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/lupa.png":
+/*!**************************************!*\
+  !*** ./public/assets/Fotos/lupa.png ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/lupa.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/perfil.png":
+/*!****************************************!*\
+  !*** ./public/assets/Fotos/perfil.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/perfil.png");
+
+/***/ }),
+
+/***/ "./public/assets/Fotos/top.jpg":
+/*!*************************************!*\
+  !*** ./public/assets/Fotos/top.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/top.jpg");
 
 /***/ }),
 
@@ -1341,116 +1491,6 @@ module.exports = function (list, options) {
     lastIdentifiers = newLastIdentifiers;
   };
 };
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/Produtos/fotoBrancadeCosta.jpg":
-/*!************************************************************!*\
-  !*** ./public/assets/Fotos/Produtos/fotoBrancadeCosta.jpg ***!
-  \************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "4f9370de381014543098.jpg";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/baner/Baner-2.jpeg":
-/*!************************************************!*\
-  !*** ./public/assets/Fotos/baner/Baner-2.jpeg ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "26142ab43f837918cdc8.jpeg";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/baner/Descontoprincipal.jpeg":
-/*!**********************************************************!*\
-  !*** ./public/assets/Fotos/baner/Descontoprincipal.jpeg ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "08ee674918afe55b2e73.jpeg";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/carrinho.png":
-/*!******************************************!*\
-  !*** ./public/assets/Fotos/carrinho.png ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "111ede40f3b5faa77684.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/coracao.png":
-/*!*****************************************!*\
-  !*** ./public/assets/Fotos/coracao.png ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "e49ad9de2e44146b50f7.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/local.png":
-/*!***************************************!*\
-  !*** ./public/assets/Fotos/local.png ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "eeda2dcefafe5ca5a659.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/log.png":
-/*!*************************************!*\
-  !*** ./public/assets/Fotos/log.png ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "d64961e22209c3a9fc25.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/lupa.png":
-/*!**************************************!*\
-  !*** ./public/assets/Fotos/lupa.png ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "2a9ca93851c7c7b4fe00.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/perfil.png":
-/*!****************************************!*\
-  !*** ./public/assets/Fotos/perfil.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "2c789a0dad3af4852e3c.png";
-
-/***/ }),
-
-/***/ "./public/assets/Fotos/top.jpg":
-/*!*************************************!*\
-  !*** ./public/assets/Fotos/top.jpg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "c9685dcdab406fb8e4e0.jpg";
 
 /***/ }),
 
@@ -23550,16 +23590,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/footer.css */ "./frontend/assets/css/footer.css");
 /* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/css/main.css */ "./frontend/assets/css/main.css");
 /* harmony import */ var _assets_css_header_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/css/header.css */ "./frontend/assets/css/header.css");
-/* harmony import */ var _public_assets_Fotos_baner_Descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/assets/Fotos/baner/Descontoprincipal.jpeg */ "./public/assets/Fotos/baner/Descontoprincipal.jpeg");
-/* harmony import */ var _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../public/assets/Fotos/baner/Baner-2.jpeg */ "./public/assets/Fotos/baner/Baner-2.jpeg");
-/* harmony import */ var _public_assets_Fotos_carrinho_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../public/assets/Fotos/carrinho.png */ "./public/assets/Fotos/carrinho.png");
+/* harmony import */ var _public_assets_Fotos_top_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/assets/Fotos/top.jpg */ "./public/assets/Fotos/top.jpg");
+/* harmony import */ var _public_assets_Fotos_log_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../public/assets/Fotos/log.png */ "./public/assets/Fotos/log.png");
+/* harmony import */ var _public_assets_Fotos_lupa_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../public/assets/Fotos/lupa.png */ "./public/assets/Fotos/lupa.png");
 /* harmony import */ var _public_assets_Fotos_coracao_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../public/assets/Fotos/coracao.png */ "./public/assets/Fotos/coracao.png");
-/* harmony import */ var _public_assets_Fotos_local_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/assets/Fotos/local.png */ "./public/assets/Fotos/local.png");
-/* harmony import */ var _public_assets_Fotos_log_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/assets/Fotos/log.png */ "./public/assets/Fotos/log.png");
-/* harmony import */ var _public_assets_Fotos_lupa_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/assets/Fotos/lupa.png */ "./public/assets/Fotos/lupa.png");
-/* harmony import */ var _public_assets_Fotos_perfil_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/Fotos/perfil.png */ "./public/assets/Fotos/perfil.png");
-/* harmony import */ var _public_assets_Fotos_top_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/Fotos/top.jpg */ "./public/assets/Fotos/top.jpg");
-/* harmony import */ var _public_assets_Fotos_Produtos_fotoBrancadeCosta_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/Fotos/Produtos/fotoBrancadeCosta.jpg */ "./public/assets/Fotos/Produtos/fotoBrancadeCosta.jpg");
+/* harmony import */ var _public_assets_Fotos_carrinho_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/assets/Fotos/carrinho.png */ "./public/assets/Fotos/carrinho.png");
+/* harmony import */ var _public_assets_Fotos_perfil_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/assets/Fotos/perfil.png */ "./public/assets/Fotos/perfil.png");
+/* harmony import */ var _public_assets_Fotos_local_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/assets/Fotos/local.png */ "./public/assets/Fotos/local.png");
+/* harmony import */ var _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/Fotos/baner/Baner-2.jpeg */ "./public/assets/Fotos/baner/Baner-2.jpeg");
+/* harmony import */ var _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/Fotos/baner/descontoprincipal.jpeg */ "./public/assets/Fotos/baner/descontoprincipal.jpeg");
+/* harmony import */ var _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/Fotos/Produtos/Proto-redondo.jpeg */ "./public/assets/Fotos/Produtos/Proto-redondo.jpeg");
 
 
 
@@ -23574,28 +23614,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+//produtos
 
 document.addEventListener('DOMContentLoaded', function () {
-  var imgElement = document.querySelector('.Descontoprincipal');
-  imgElement.src = _public_assets_Fotos_baner_Descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_5__;
-  var Banerr = document.querySelector('.Baner');
-  Banerr.src = _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_6__;
-  var car = document.querySelector('.carrinho');
-  car.src = _public_assets_Fotos_carrinho_png__WEBPACK_IMPORTED_MODULE_7__;
-  var Hart = document.querySelector('.coracao');
-  Hart.src = _public_assets_Fotos_coracao_png__WEBPACK_IMPORTED_MODULE_8__;
-  var locate = document.querySelector('.local');
-  locate.src = _public_assets_Fotos_local_png__WEBPACK_IMPORTED_MODULE_9__;
-  var lo = document.querySelector('.img-superior');
-  lo.src = _public_assets_Fotos_log_png__WEBPACK_IMPORTED_MODULE_10__;
-  var magnifyingGlass = document.querySelector('.lupa');
-  magnifyingGlass.src = _public_assets_Fotos_lupa_png__WEBPACK_IMPORTED_MODULE_11__;
-  var profile = document.querySelector('.perfil');
-  profile.src = _public_assets_Fotos_perfil_png__WEBPACK_IMPORTED_MODULE_12__;
-  var to = document.querySelector('.top');
-  to.src = _public_assets_Fotos_top_jpg__WEBPACK_IMPORTED_MODULE_13__;
-  var Products = document.querySelector('.Produtos');
-  Products.src = _public_assets_Fotos_Produtos_fotoBrancadeCosta_jpg__WEBPACK_IMPORTED_MODULE_14__;
+  document.querySelector('.img-superior').src = _public_assets_Fotos_top_jpg__WEBPACK_IMPORTED_MODULE_5__["default"];
+  document.querySelector('.log-inferior').src = _public_assets_Fotos_log_png__WEBPACK_IMPORTED_MODULE_6__["default"];
+  document.querySelector('.lupa').src = _public_assets_Fotos_lupa_png__WEBPACK_IMPORTED_MODULE_7__["default"];
+  document.querySelector('.coracao').src = _public_assets_Fotos_coracao_png__WEBPACK_IMPORTED_MODULE_8__["default"];
+  document.querySelector('.carrinho').src = _public_assets_Fotos_carrinho_png__WEBPACK_IMPORTED_MODULE_9__["default"];
+  document.querySelector('.perfil').src = _public_assets_Fotos_perfil_png__WEBPACK_IMPORTED_MODULE_10__["default"];
+  document.querySelector('.local-imagem').src = _public_assets_Fotos_local_png__WEBPACK_IMPORTED_MODULE_11__["default"];
+  document.querySelector('.baner').src = _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"];
+  document.querySelector('.Descontoprincipal').src = _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"];
+
+  //produtos
+  document.querySelector('.product-image').src = _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"];
 });
 })();
 

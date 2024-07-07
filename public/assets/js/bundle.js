@@ -1,209 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/footer.css":
-/*!******************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/footer.css ***!
-  \******************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "ul,\r\nli {\r\n  margin: 0;\r\n  padding: 2px;\r\n  list-style: none;\r\n  text-decoration: none;\r\n}\r\n\r\n#Rootbar {\r\n  display: flex;\r\n  padding-top: 2vw;\r\n  color: black;\r\n  border-top: 2px solid #e10052;\r\n}\r\n\r\n.Lista1 {\r\n  padding: 0 0 2vw 10vw;\r\n}\r\n\r\n.Lista2 {\r\n  padding: 0 0 0vw 10vw;\r\n}\r\n\r\n.Lista3 {\r\n  padding: 0 0 0vw 10vw;\r\n}\r\n\r\n.footer {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\n.LI {\r\n  color: #e10052;\r\n}\r\n", "",{"version":3,"sources":["webpack://./frontend/assets/css/footer.css"],"names":[],"mappings":"AAAA;;EAEE,SAAS;EACT,YAAY;EACZ,gBAAgB;EAChB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,YAAY;EACZ,6BAA6B;AAC/B;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,cAAc;AAChB","sourcesContent":["ul,\r\nli {\r\n  margin: 0;\r\n  padding: 2px;\r\n  list-style: none;\r\n  text-decoration: none;\r\n}\r\n\r\n#Rootbar {\r\n  display: flex;\r\n  padding-top: 2vw;\r\n  color: black;\r\n  border-top: 2px solid #e10052;\r\n}\r\n\r\n.Lista1 {\r\n  padding: 0 0 2vw 10vw;\r\n}\r\n\r\n.Lista2 {\r\n  padding: 0 0 0vw 10vw;\r\n}\r\n\r\n.Lista3 {\r\n  padding: 0 0 0vw 10vw;\r\n}\r\n\r\n.footer {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\n.LI {\r\n  color: #e10052;\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/header.css":
-/*!******************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/header.css ***!
-  \******************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n#style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n", "",{"version":3,"sources":["webpack://./frontend/assets/css/header.css"],"names":[],"mappings":"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","sourcesContent":["#html {\r\n  font-size: 62.5%;\r\n  font-family: \"Lato\", sans-serif;\r\n}\r\n\r\n.body {\r\n  font-size: 1.4rem;\r\n  line-height: 2rem;\r\n  font-family: \"Lato\", sans-serif;\r\n  overflow-x: hidden;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  min-height: 100vh;\r\n  display: fixed;\r\n  flex-direction: column;\r\n}\r\n/* Minha tela  */\r\n.div-conteiner {\r\n  width: 100%;\r\n}\r\n\r\n.aside {\r\n  height: 10vw;\r\n}\r\n\r\n.logo-div {\r\n  background-color: #6e0023;\r\n  height: 2vw;\r\n}\r\n\r\n.img-superior {\r\n  width: 2.7vw;\r\n}\r\n\r\n.nav {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  height: 7vw;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.style-nav {\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10px;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n.log-inferior {\r\n  position: relative;\r\n  bottom: 1.5vw;\r\n  right: 2vw;\r\n  width: 10%;\r\n  padding: 0rem 0rem 0rem 5rem;\r\n}\r\n\r\n.buscador-div {\r\n  position: relative;\r\n  bottom: 9vw;\r\n  left: 15%;\r\n}\r\n\r\n.log-div {\r\n  height: 10vw;\r\n}\r\n\r\n.buscador-input {\r\n  width: 40vw;\r\n  height: 4vw;\r\n  border: 1px solid #333;\r\n  border-radius: 5px 0 0 5px;\r\n  border-right: 0px solid;\r\n}\r\n\r\n.button {\r\n  position: absolute;\r\n  height: 4.25vw;\r\n  width: 5vw;\r\n  border: 1px solid #333;\r\n  border-left: 0px solid;\r\n  border-radius: 0 5px 5px 0;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  background-color: white;\r\n  color: #fff;\r\n}\r\n\r\n.lupa {\r\n  position: relative;\r\n  right: 1rem;\r\n  bottom: 0.1rem;\r\n  height: 6rem;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #dcdcdc;\r\n}\r\n\r\n.entra-div,\r\n.carrinho-div,\r\n.favorito-div {\r\n  position: relative;\r\n  display: inline;\r\n  bottom: 12.2vw;\r\n  left: 64%;\r\n  margin: 0 10px 0 10px;\r\n}\r\n\r\n#style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n.style-img {\r\n  width: 2vw;\r\n  top: 0.5vw;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  position: relative;\r\n  bottom: 10vw;\r\n  color: white;\r\n  font-size: 12px;\r\n}\r\n\r\n#rotbar {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 2vw;\r\n  bottom: 1.5vw;\r\n  background-color: white;\r\n}\r\n\r\n.local-div {\r\n  border-right: 1px solid gray;\r\n}\r\n.local-a {\r\n  margin: 0px 0px 0px 30px;\r\n}\r\n\r\n.local-imagem {\r\n  width: 15px;\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\n.local-div,\r\n.infantil,\r\n.plussize,\r\n.dresses,\r\n.Skirts,\r\n.blouses,\r\n.new,\r\n.accessory {\r\n  position: relative;\r\n  top: 0vw;\r\n  padding: 0 5px 0px 30px;\r\n  display: inline;\r\n}\r\n\r\n.style-rotbar,\r\n.local-a {\r\n  text-decoration: none;\r\n  color: black;\r\n  cursor: pointer;\r\n}\r\n\r\n/*  Estilos para telas de PCs, notebooks e tablets em modo paisagem */\r\n@media screen and (max-width: 1024) {\r\n  .body {\r\n    font-size: 1.4rem;\r\n    line-height: 2rem;\r\n    font-family: \"Lato\", sans-serif;\r\n    overflow-x: hidden;\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: flex;\r\n    width: 100%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 20%;\r\n  }\r\n\r\n  .img-superior {\r\n    width: 5vw;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 100%;\r\n    height: 55%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .log-inferior {\r\n    width: 10%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 8vw;\r\n    left: 15%;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 40vw;\r\n    height: 4vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    bottom: 1.5vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* Estilos para dispositivos móveis */\r\n@media screen and (max-width: 767px) {\r\n  .body {\r\n    font-size: 18px;\r\n  }\r\n\r\n  .div-conteiner {\r\n    position: fixed;\r\n    width: 1000%;\r\n  }\r\n\r\n  .aside {\r\n    height: 15vw;\r\n  }\r\n\r\n  .logo-div {\r\n    background-color: #6e0023;\r\n    height: 45%;\r\n  }\r\n\r\n  .img-superior {\r\n    position: relative;\r\n    bottom: 25%;\r\n    width: 10vw;\r\n  }\r\n\r\n  .log-inferior {\r\n    position: relative;\r\n    bottom: 20px;\r\n    right: 30px;\r\n    width: 2%;\r\n    padding: 0rem 0rem 0rem 5rem;\r\n  }\r\n\r\n  .nav {\r\n    background-color: #e10052;\r\n    width: 90%;\r\n    height: 90%;\r\n  }\r\n\r\n  .style-nav {\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10px;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  .buscador-div {\r\n    position: relative;\r\n    bottom: 17vw;\r\n    left: 10rem;\r\n  }\r\n\r\n  .buscador-form {\r\n  }\r\n\r\n  .buscador-input {\r\n    width: 50vw;\r\n    height: 6vw;\r\n    border: 1px solid #333;\r\n    border-radius: 5px 0 0 5px;\r\n    border-right: 0px solid;\r\n  }\r\n\r\n  .button {\r\n    position: absolute;\r\n    height: 4.4vw;\r\n    width: 5vw;\r\n    border: 1px solid #333;\r\n    border-left: 0px solid;\r\n    border-radius: 0 5px 5px 0;\r\n    cursor: pointer;\r\n    align-items: center;\r\n    background-color: white;\r\n    color: #fff;\r\n  }\r\n\r\n  .lupa {\r\n    position: relative;\r\n    right: 2rem;\r\n    bottom: 0.7rem;\r\n    height: 6rem;\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: #dcdcdc;\r\n  }\r\n\r\n  .entra-div,\r\n  .carrinho-div,\r\n  .favorito-div {\r\n    position: relative;\r\n    display: inline;\r\n    bottom: 12.5vw;\r\n    left: 63%;\r\n    margin: 0 10px 0 10px;\r\n  }\r\n\r\n  .style-img {\r\n    width: 3vw;\r\n    top: 1vw;\r\n    display: inline-block;\r\n    text-decoration: none;\r\n    position: relative;\r\n    bottom: 10vw;\r\n    color: white;\r\n    font-size: 12px;\r\n  }\r\n\r\n  #rotbar {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 5vw;\r\n    top: 2vw;\r\n    background-color: white;\r\n  }\r\n\r\n  .local-div {\r\n    border-right: 1px solid gray;\r\n  }\r\n  .local-a {\r\n    margin: 0px 0px 0px 30px;\r\n  }\r\n\r\n  .local-imagem {\r\n    width: 15px;\r\n    position: relative;\r\n    top: 5px;\r\n  }\r\n\r\n  .local-div,\r\n  .infantil,\r\n  .plussize,\r\n  .dresses,\r\n  .Skirts,\r\n  .blouses,\r\n  .new,\r\n  .accessory {\r\n    position: relative;\r\n    top: 0vw;\r\n    padding: 0 5px 0px 30px;\r\n    display: inline;\r\n  }\r\n\r\n  .style-rotbar,\r\n  .local-a {\r\n    text-decoration: none;\r\n    color: black;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n/* A barra de pesquisa fica fixed */\r\n\r\n.navFixed {\r\n  background-color: #e10052;\r\n  width: 100%;\r\n  position: fixed;\r\n  bottom: 84%;\r\n  height: 6vw;\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/main.css":
-/*!****************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/main.css ***!
-  \****************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  letter-spacing: 0;\r\n  -moz-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n  scroll-behavior: smooth;\r\n}\r\n\r\n/* style do Banner */\r\n.container-baner {\r\n  display: flex !important;\r\n  justify-content: center !important;\r\n  align-items: center !important;\r\n  max-width: 100vw !important;\r\n  max-height: 70vw !important;\r\n}\r\n\r\n.container-baner-slider {\r\n  display: flex;\r\n  justify-content: center t;\r\n  align-items: center;\r\n  margin: 10px 0 150px 0;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner-slider {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.container-item-baner {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner-slider {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  column-gap: 2rem;\r\n}\r\n\r\n.item-baner {\r\n  display: flex !important;\r\n  align-items: center;\r\n  justify-content: center;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.baner-slider > .slick-next .slick-prev {\r\n  display: block;\r\n  width: 20px;\r\n  height: 20px;\r\n  z-index: 0 !important;\r\n}\r\n\r\n/* style dos produtos */\r\n\r\n.Produtos {\r\n  display: flex !important;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.container-slider {\r\n  width: 89vw;\r\n  height: auto;\r\n}\r\n\r\n.slider {\r\n  display: flex !important;\r\n  background-color: ffff;\r\n  border-radius: 2px;\r\n  column-gap: 1rem;\r\n}\r\n\r\n.product-container {\r\n  display: flex !important;\r\n  max-width: 270px;\r\n  border: 1px solid rgba(59, 59, 59, 0.384);\r\n  border-radius: 5px 5px 5px 5px;\r\n  -webkit-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  -moz-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  margin: 0px 20px 20px 0px;\r\n  gap: 0.1rem;\r\n}\r\n\r\n.container-heart {\r\n  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart.png);\r\n  display: flex !important;\r\n  position: relative !important;\r\n  max-width: 30px;\r\n  max-height: 30px;\r\n  min-height: 30px;\r\n  min-width: 30px;\r\n  background-size: 30px;\r\n  z-index: 1;\r\n  transition: 0.3s all ease !important;\r\n  cursor: pointer;\r\n  left: 75%;\r\n  top: 20px;\r\n}\r\n\r\n.container-heart:hover {\r\n  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart-red.png) !important;\r\n}\r\n\r\n.item {\r\n  position: relative !important;\r\n  display: flex !important;\r\n  align-items: center;\r\n  text-decoration: none;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  color: rgb(0, 0, 0);\r\n  flex-wrap: wrap;\r\n  right: 30px;\r\n}\r\n\r\n.product-image {\r\n  position: relative;\r\n  display: center;\r\n  justify-content: center;\r\n  width: 220px;\r\n  height: auto;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  padding: 15px 0 0 0;\r\n  left: 23px;\r\n}\r\n\r\n.description {\r\n  position: relative !important;\r\n  left: 1%;\r\n  padding: 5px 0 5px 5px;\r\n}\r\n.discount {\r\n  text-decoration: line-through;\r\n}\r\n\r\n.star {\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n  gap: 1rem;\r\n  color: rgb(255, 196, 0);\r\n}\r\n\r\n.slider > .slick-next:before {\r\n  font-family: slick;\r\n  font-size: 40px !important;\r\n  line-height: 1;\r\n  opacity: 0.75;\r\n  color: rgba(131, 118, 118, 0.781) !important;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n.slider > .slick-prev:before {\r\n  font-family: slick;\r\n  font-size: 40px !important;\r\n  line-height: 1;\r\n  opacity: 0.75;\r\n  color: rgba(131, 118, 118, 0.781) !important;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n.slider > .slick-next,\r\n.slick-prev {\r\n  width: 50px !important;\r\n  height: 50px !important;\r\n  z-index: 1 !important;\r\n}\r\n\r\n.slider > .slick-prev {\r\n  left: -45px !important;\r\n}\r\n\r\n.slider > .slick-next {\r\n  right: -45px !important;\r\n}\r\n", "",{"version":3,"sources":["webpack://./frontend/assets/css/main.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,iBAAiB;EACjB,2BAA2B;EAC3B,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA,oBAAoB;AACpB;EACE,wBAAwB;EACxB,kCAAkC;EAClC,8BAA8B;EAC9B,2BAA2B;EAC3B,2BAA2B;AAC7B;;AAEA;EACE,aAAa;EACb,yBAAyB;EACzB,mBAAmB;EACnB,sBAAsB;EACtB,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;EACnB,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,wBAAwB;EACxB,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,cAAc;EACd,WAAW;EACX,YAAY;EACZ,qBAAqB;AACvB;;AAEA,uBAAuB;;AAEvB;EACE,wBAAwB;EACxB,uBAAuB;EACvB,mBAAmB;AACrB;AACA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,wBAAwB;EACxB,sBAAsB;EACtB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,wBAAwB;EACxB,gBAAgB;EAChB,yCAAyC;EACzC,8BAA8B;EAC9B,0DAA0D;EAC1D,uDAAuD;EACvD,kDAAkD;EAClD,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,mJAAmJ;EACnJ,wBAAwB;EACxB,6BAA6B;EAC7B,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;EACf,qBAAqB;EACrB,UAAU;EACV,oCAAoC;EACpC,eAAe;EACf,SAAS;EACT,SAAS;AACX;;AAEA;EACE,kKAAkK;AACpK;;AAEA;EACE,6BAA6B;EAC7B,wBAAwB;EACxB,mBAAmB;EACnB,qBAAqB;EACrB,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,eAAe;EACf,WAAW;AACb;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,uBAAuB;EACvB,YAAY;EACZ,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;AACZ;;AAEA;EACE,6BAA6B;EAC7B,QAAQ;EACR,sBAAsB;AACxB;AACA;EACE,6BAA6B;AAC/B;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,kBAAkB;EAClB,0BAA0B;EAC1B,cAAc;EACd,aAAa;EACb,4CAA4C;EAC5C,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE,kBAAkB;EAClB,0BAA0B;EAC1B,cAAc;EACd,aAAa;EACb,4CAA4C;EAC5C,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;;EAEE,sBAAsB;EACtB,uBAAuB;EACvB,qBAAqB;AACvB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;AACzB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  letter-spacing: 0;\r\n  -moz-box-sizing: border-box;\r\n  box-sizing: border-box;\r\n  scroll-behavior: smooth;\r\n}\r\n\r\n/* style do Banner */\r\n.container-baner {\r\n  display: flex !important;\r\n  justify-content: center !important;\r\n  align-items: center !important;\r\n  max-width: 100vw !important;\r\n  max-height: 70vw !important;\r\n}\r\n\r\n.container-baner-slider {\r\n  display: flex;\r\n  justify-content: center t;\r\n  align-items: center;\r\n  margin: 10px 0 150px 0;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner-slider {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.container-item-baner {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner-slider {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  column-gap: 2rem;\r\n}\r\n\r\n.item-baner {\r\n  display: flex !important;\r\n  align-items: center;\r\n  justify-content: center;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n}\r\n\r\n.baner {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.baner-slider > .slick-next .slick-prev {\r\n  display: block;\r\n  width: 20px;\r\n  height: 20px;\r\n  z-index: 0 !important;\r\n}\r\n\r\n/* style dos produtos */\r\n\r\n.Produtos {\r\n  display: flex !important;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.container-slider {\r\n  width: 89vw;\r\n  height: auto;\r\n}\r\n\r\n.slider {\r\n  display: flex !important;\r\n  background-color: ffff;\r\n  border-radius: 2px;\r\n  column-gap: 1rem;\r\n}\r\n\r\n.product-container {\r\n  display: flex !important;\r\n  max-width: 270px;\r\n  border: 1px solid rgba(59, 59, 59, 0.384);\r\n  border-radius: 5px 5px 5px 5px;\r\n  -webkit-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  -moz-box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  box-shadow: 10px 10px 16px -4px rgba(0, 0, 0, 0.5);\r\n  margin: 0px 20px 20px 0px;\r\n  gap: 0.1rem;\r\n}\r\n\r\n.container-heart {\r\n  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart.png);\r\n  display: flex !important;\r\n  position: relative !important;\r\n  max-width: 30px;\r\n  max-height: 30px;\r\n  min-height: 30px;\r\n  min-width: 30px;\r\n  background-size: 30px;\r\n  z-index: 1;\r\n  transition: 0.3s all ease !important;\r\n  cursor: pointer;\r\n  left: 75%;\r\n  top: 20px;\r\n}\r\n\r\n.container-heart:hover {\r\n  background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart-red.png) !important;\r\n}\r\n\r\n.item {\r\n  position: relative !important;\r\n  display: flex !important;\r\n  align-items: center;\r\n  text-decoration: none;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  color: rgb(0, 0, 0);\r\n  flex-wrap: wrap;\r\n  right: 30px;\r\n}\r\n\r\n.product-image {\r\n  position: relative;\r\n  display: center;\r\n  justify-content: center;\r\n  width: 220px;\r\n  height: auto;\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  padding: 15px 0 0 0;\r\n  left: 23px;\r\n}\r\n\r\n.description {\r\n  position: relative !important;\r\n  left: 1%;\r\n  padding: 5px 0 5px 5px;\r\n}\r\n.discount {\r\n  text-decoration: line-through;\r\n}\r\n\r\n.star {\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n  gap: 1rem;\r\n  color: rgb(255, 196, 0);\r\n}\r\n\r\n.slider > .slick-next:before {\r\n  font-family: slick;\r\n  font-size: 40px !important;\r\n  line-height: 1;\r\n  opacity: 0.75;\r\n  color: rgba(131, 118, 118, 0.781) !important;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n.slider > .slick-prev:before {\r\n  font-family: slick;\r\n  font-size: 40px !important;\r\n  line-height: 1;\r\n  opacity: 0.75;\r\n  color: rgba(131, 118, 118, 0.781) !important;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n.slider > .slick-next,\r\n.slick-prev {\r\n  width: 50px !important;\r\n  height: 50px !important;\r\n  z-index: 1 !important;\r\n}\r\n\r\n.slider > .slick-prev {\r\n  left: -45px !important;\r\n}\r\n\r\n.slider > .slick-next {\r\n  right: -45px !important;\r\n}\r\n"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
-      }
-
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
-    }
-
-    var alreadyImportedModules = {};
-
-    if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
-
-        if (id != null) {
-          alreadyImportedModules[id] = true;
-        }
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
-
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
-        continue;
-      }
-
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
-        } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
-        }
-      }
-
-      list.push(item);
-    }
-  };
-
-  return list;
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
-  \************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-module.exports = function cssWithMappingToString(item) {
-  var _item = _slicedToArray(item, 4),
-      content = _item[1],
-      cssMapping = _item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (typeof btoa === "function") {
-    // eslint-disable-next-line no-undef
-    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
-    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-    var sourceMapping = "/*# ".concat(data, " */");
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
-  }
-
-  return [content].join("\n");
-};
-
-/***/ }),
-
 /***/ "./public/assets/Fotos/Produtos/Proto-redondo.jpeg":
 /*!*********************************************************!*\
   !*** ./public/assets/Fotos/Produtos/Proto-redondo.jpeg ***!
@@ -351,6 +148,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "Fotos/public/assets/Fotos/top.jpg");
+
+/***/ }),
+
+/***/ "./frontend/assets/css/footer.css":
+/*!****************************************!*\
+  !*** ./frontend/assets/css/footer.css ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./frontend/assets/css/header.css":
+/*!****************************************!*\
+  !*** ./frontend/assets/css/header.css ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./frontend/assets/css/main.css":
+/*!**************************************!*\
+  !*** ./frontend/assets/css/main.css ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -1122,375 +958,6 @@ try {
   }
 }
 
-
-/***/ }),
-
-/***/ "./frontend/assets/css/footer.css":
-/*!****************************************!*\
-  !*** ./frontend/assets/css/footer.css ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./footer.css */ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/footer.css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_footer_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_footer_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./frontend/assets/css/header.css":
-/*!****************************************!*\
-  !*** ./frontend/assets/css/header.css ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./header.css */ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/header.css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_header_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_header_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./frontend/assets/css/main.css":
-/*!**************************************!*\
-  !*** ./frontend/assets/css/main.css ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./main.css */ "./node_modules/css-loader/dist/cjs.js!./frontend/assets/css/main.css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_main_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_main_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var isOldIE = function isOldIE() {
-  var memo;
-  return function memorize() {
-    if (typeof memo === 'undefined') {
-      // Test for IE <= 9 as proposed by Browserhacks
-      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-      // Tests for existence of standard globals is to allow style-loader
-      // to operate correctly into non-standard environments
-      // @see https://github.com/webpack-contrib/style-loader/issues/177
-      memo = Boolean(window && document && document.all && !window.atob);
-    }
-
-    return memo;
-  };
-}();
-
-var getTarget = function getTarget() {
-  var memo = {};
-  return function memorize(target) {
-    if (typeof memo[target] === 'undefined') {
-      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
-
-      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-        try {
-          // This will throw an exception if access to iframe is blocked
-          // due to cross-origin restrictions
-          styleTarget = styleTarget.contentDocument.head;
-        } catch (e) {
-          // istanbul ignore next
-          styleTarget = null;
-        }
-      }
-
-      memo[target] = styleTarget;
-    }
-
-    return memo[target];
-  };
-}();
-
-var stylesInDom = [];
-
-function getIndexByIdentifier(identifier) {
-  var result = -1;
-
-  for (var i = 0; i < stylesInDom.length; i++) {
-    if (stylesInDom[i].identifier === identifier) {
-      result = i;
-      break;
-    }
-  }
-
-  return result;
-}
-
-function modulesToDom(list, options) {
-  var idCountMap = {};
-  var identifiers = [];
-
-  for (var i = 0; i < list.length; i++) {
-    var item = list[i];
-    var id = options.base ? item[0] + options.base : item[0];
-    var count = idCountMap[id] || 0;
-    var identifier = "".concat(id, " ").concat(count);
-    idCountMap[id] = count + 1;
-    var index = getIndexByIdentifier(identifier);
-    var obj = {
-      css: item[1],
-      media: item[2],
-      sourceMap: item[3]
-    };
-
-    if (index !== -1) {
-      stylesInDom[index].references++;
-      stylesInDom[index].updater(obj);
-    } else {
-      stylesInDom.push({
-        identifier: identifier,
-        updater: addStyle(obj, options),
-        references: 1
-      });
-    }
-
-    identifiers.push(identifier);
-  }
-
-  return identifiers;
-}
-
-function insertStyleElement(options) {
-  var style = document.createElement('style');
-  var attributes = options.attributes || {};
-
-  if (typeof attributes.nonce === 'undefined') {
-    var nonce =  true ? __webpack_require__.nc : 0;
-
-    if (nonce) {
-      attributes.nonce = nonce;
-    }
-  }
-
-  Object.keys(attributes).forEach(function (key) {
-    style.setAttribute(key, attributes[key]);
-  });
-
-  if (typeof options.insert === 'function') {
-    options.insert(style);
-  } else {
-    var target = getTarget(options.insert || 'head');
-
-    if (!target) {
-      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
-    }
-
-    target.appendChild(style);
-  }
-
-  return style;
-}
-
-function removeStyleElement(style) {
-  // istanbul ignore if
-  if (style.parentNode === null) {
-    return false;
-  }
-
-  style.parentNode.removeChild(style);
-}
-/* istanbul ignore next  */
-
-
-var replaceText = function replaceText() {
-  var textStore = [];
-  return function replace(index, replacement) {
-    textStore[index] = replacement;
-    return textStore.filter(Boolean).join('\n');
-  };
-}();
-
-function applyToSingletonTag(style, index, remove, obj) {
-  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
-
-  /* istanbul ignore if  */
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = replaceText(index, css);
-  } else {
-    var cssNode = document.createTextNode(css);
-    var childNodes = style.childNodes;
-
-    if (childNodes[index]) {
-      style.removeChild(childNodes[index]);
-    }
-
-    if (childNodes.length) {
-      style.insertBefore(cssNode, childNodes[index]);
-    } else {
-      style.appendChild(cssNode);
-    }
-  }
-}
-
-function applyToTag(style, options, obj) {
-  var css = obj.css;
-  var media = obj.media;
-  var sourceMap = obj.sourceMap;
-
-  if (media) {
-    style.setAttribute('media', media);
-  } else {
-    style.removeAttribute('media');
-  }
-
-  if (sourceMap && typeof btoa !== 'undefined') {
-    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
-  } // For old IE
-
-  /* istanbul ignore if  */
-
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    while (style.firstChild) {
-      style.removeChild(style.firstChild);
-    }
-
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var singleton = null;
-var singletonCounter = 0;
-
-function addStyle(obj, options) {
-  var style;
-  var update;
-  var remove;
-
-  if (options.singleton) {
-    var styleIndex = singletonCounter++;
-    style = singleton || (singleton = insertStyleElement(options));
-    update = applyToSingletonTag.bind(null, style, styleIndex, false);
-    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-  } else {
-    style = insertStyleElement(options);
-    update = applyToTag.bind(null, style, options);
-
-    remove = function remove() {
-      removeStyleElement(style);
-    };
-  }
-
-  update(obj);
-  return function updateStyle(newObj) {
-    if (newObj) {
-      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
-        return;
-      }
-
-      update(obj = newObj);
-    } else {
-      remove();
-    }
-  };
-}
-
-module.exports = function (list, options) {
-  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-  // tags it will allow on a page
-
-  if (!options.singleton && typeof options.singleton !== 'boolean') {
-    options.singleton = isOldIE();
-  }
-
-  list = list || [];
-  var lastIdentifiers = modulesToDom(list, options);
-  return function update(newList) {
-    newList = newList || [];
-
-    if (Object.prototype.toString.call(newList) !== '[object Array]') {
-      return;
-    }
-
-    for (var i = 0; i < lastIdentifiers.length; i++) {
-      var identifier = lastIdentifiers[i];
-      var index = getIndexByIdentifier(identifier);
-      stylesInDom[index].references--;
-    }
-
-    var newLastIdentifiers = modulesToDom(newList, options);
-
-    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
-      var _identifier = lastIdentifiers[_i];
-
-      var _index = getIndexByIdentifier(_identifier);
-
-      if (stylesInDom[_index].references === 0) {
-        stylesInDom[_index].updater();
-
-        stylesInDom.splice(_index, 1);
-      }
-    }
-
-    lastIdentifiers = newLastIdentifiers;
-  };
-};
 
 /***/ }),
 
@@ -23481,7 +22948,7 @@ module.exports = __webpack_require__(/*! ../internals/path */ "./node_modules/co
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
+/******/ 			// no module.id needed
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -23569,11 +23036,6 @@ module.exports = __webpack_require__(/*! ../internals/path */ "./node_modules/co
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
@@ -23587,9 +23049,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/stable */ "./node_modules/core-js/stable/index.js");
 /* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_css_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/footer.css */ "./frontend/assets/css/footer.css");
+/* harmony import */ var _assets_css_header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/header.css */ "./frontend/assets/css/header.css");
 /* harmony import */ var _assets_css_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/css/main.css */ "./frontend/assets/css/main.css");
-/* harmony import */ var _assets_css_header_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/css/header.css */ "./frontend/assets/css/header.css");
+/* harmony import */ var _assets_css_footer_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/css/footer.css */ "./frontend/assets/css/footer.css");
 /* harmony import */ var _public_assets_Fotos_top_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/assets/Fotos/top.jpg */ "./public/assets/Fotos/top.jpg");
 /* harmony import */ var _public_assets_Fotos_log_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../public/assets/Fotos/log.png */ "./public/assets/Fotos/log.png");
 /* harmony import */ var _public_assets_Fotos_lupa_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../public/assets/Fotos/lupa.png */ "./public/assets/Fotos/lupa.png");

@@ -23091,7 +23091,10 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('.Descontoprincipal').src = _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"];
 
   //produtos
-  document.querySelector('.product-image').src = _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"];
+  var productImages = document.querySelectorAll('.product-image');
+  productImages.forEach(function (img) {
+    img.src = _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"];
+  });
 });
 })();
 

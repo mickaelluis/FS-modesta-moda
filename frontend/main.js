@@ -31,5 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.Descontoprincipal').src = Desconto;
 
     //produtos
-    document.querySelector('.product-image').src = fotoProduto;
+    const productImages = document.querySelectorAll('.product-image');
+    productImages.forEach((img) => {
+        img.src = fotoProduto;
+      });
 });

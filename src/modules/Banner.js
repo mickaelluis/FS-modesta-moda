@@ -1,9 +1,23 @@
+/*
 $(document).ready(function () {
     $('.js-baner-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+       autoplaySpeed: 2000,
         dots: true,
       });
+  }); */
+
+  $('.js-baner-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    //autoplay: true,
+    //autoplaySpeed: 2000,
   });
+
+
+

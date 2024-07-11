@@ -1,6 +1,94 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/modules/Banner.js":
+/*!*******************************!*\
+  !*** ./src/modules/Banner.js ***!
+  \*******************************/
+/***/ (() => {
+
+/*
+$(document).ready(function () {
+    $('.js-baner-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+       autoplaySpeed: 2000,
+        dots: true,
+      });
+  }); */
+
+$('.js-baner-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+  //autoplay: true,
+  //autoplaySpeed: 2000,
+});
+
+/***/ }),
+
+/***/ "./src/modules/barraDePesquisa.js":
+/*!****************************************!*\
+  !*** ./src/modules/barraDePesquisa.js ***!
+  \****************************************/
+/***/ (() => {
+
+window.addEventListener("scroll", function fixed() {
+  var nav = document.querySelector('nav');
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrollTop > 208) {
+    nav.classList.add("navFixed");
+  } else {
+    nav.classList.remove("navFixed");
+  }
+});
+
+/***/ }),
+
+/***/ "./src/modules/carrossel.js":
+/*!**********************************!*\
+  !*** ./src/modules/carrossel.js ***!
+  \**********************************/
+/***/ (() => {
+
+$(document).ready(function () {
+  $(".js-slider").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    }, {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }, {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
+});
+
+/***/ }),
+
 /***/ "./public/assets/Fotos/Produtos/Proto-redondo.jpeg":
 /*!*********************************************************!*\
   !*** ./public/assets/Fotos/Produtos/Proto-redondo.jpeg ***!
@@ -23062,6 +23150,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/Fotos/baner/Baner-2.jpeg */ "./public/assets/Fotos/baner/Baner-2.jpeg");
 /* harmony import */ var _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/Fotos/baner/descontoprincipal.jpeg */ "./public/assets/Fotos/baner/descontoprincipal.jpeg");
 /* harmony import */ var _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/Fotos/Produtos/Proto-redondo.jpeg */ "./public/assets/Fotos/Produtos/Proto-redondo.jpeg");
+/* harmony import */ var _src_modules_Banner__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../src/modules/Banner */ "./src/modules/Banner.js");
+/* harmony import */ var _src_modules_Banner__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_src_modules_Banner__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _src_modules_barraDePesquisa__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ..//src/modules/barraDePesquisa */ "./src/modules/barraDePesquisa.js");
+/* harmony import */ var _src_modules_barraDePesquisa__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_src_modules_barraDePesquisa__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _src_modules_carrossel__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ..//src/modules/carrossel */ "./src/modules/carrossel.js");
+/* harmony import */ var _src_modules_carrossel__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_src_modules_carrossel__WEBPACK_IMPORTED_MODULE_17__);
 
 
 
@@ -23087,8 +23181,14 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('.carrinho').src = _public_assets_Fotos_carrinho_png__WEBPACK_IMPORTED_MODULE_9__["default"];
   document.querySelector('.perfil').src = _public_assets_Fotos_perfil_png__WEBPACK_IMPORTED_MODULE_10__["default"];
   document.querySelector('.local-imagem').src = _public_assets_Fotos_local_png__WEBPACK_IMPORTED_MODULE_11__["default"];
-  document.querySelector('.baner').src = _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"];
-  document.querySelector('.Descontoprincipal').src = _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"];
+  var desconto = document.querySelectorAll('.Descontoprincipal');
+  desconto.forEach(function (img) {
+    img.src = _public_assets_Fotos_baner_descontoprincipal_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"];
+  });
+  var baner = document.querySelectorAll('.baner');
+  baner.forEach(function (img) {
+    img.src = _public_assets_Fotos_baner_Baner_2_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"];
+  });
 
   //produtos
   var productImages = document.querySelectorAll('.product-image');
@@ -23096,6 +23196,9 @@ document.addEventListener('DOMContentLoaded', function () {
     img.src = _public_assets_Fotos_Produtos_Proto_redondo_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"];
   });
 });
+
+
+
 })();
 
 /******/ })()

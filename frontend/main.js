@@ -6,6 +6,7 @@ import './assets/css/header.css';
 import './assets/css/main.css';
 import './assets/css/footer.css';
 
+
 import imagTop from '../public/assets/Fotos/top.jpg'
 import logImage from '../public/assets/Fotos/log.png';
 import lupaImage from '../public/assets/Fotos/lupa.png';
@@ -27,8 +28,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.carrinho').src = car;
     document.querySelector('.perfil').src = perfil;
     document.querySelector('.local-imagem').src = local;
-    document.querySelector('.baner').src = Baner;
-    document.querySelector('.Descontoprincipal').src = Desconto;
+
+  const desconto = document.querySelectorAll('.Descontoprincipal')
+  desconto.forEach((img) => {
+    img.src = Desconto;
+  });
+
+  const baner = document.querySelectorAll('.baner')
+  baner.forEach((img) => {
+    img.src = Baner;
+  });
 
     //produtos
     const productImages = document.querySelectorAll('.product-image');
@@ -36,3 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
         img.src = fotoProduto;
       });
 });
+
+
+import '../src/modules/Banner'
+import '..//src/modules/barraDePesquisa'
+import '..//src/modules/carrossel'

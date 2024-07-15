@@ -85,26 +85,21 @@
                    <div class="container-heart"> 
                    </div>
                    <a href="" class="item" >
-                       <img src="" class="product-image" >
-                       <div class="description">
-                           <h4>Vestido Jamille</h4>
-                           <p>Tecido crepe foil, botões funcionais e cordão de ajuste de cintura</p>
-                           <p class="discount">R$196,00 </p>
-                           <p><strong>186,00</strong></p>
-                           <p>ou 6x de R$ 31,0</p>
-                           <div class="star">
-                               <p>
-                                   4,5
-                               </p>
-                               <p>
-                               &#9733
-                               &#9733
-                               &#9733
-                               &#9733 
-                               &#9734
-                               </p>
-                           </div>
-                       </div>
+
+                    <h1>Lista de Produtos</h1>
+                    <ul>
+                        <% Produtos.forEach(produto => { %>
+                          <li>
+                            <h2><%= produto.nome %></h2>
+                            <p>Descrição: <%= produto.descricao %></p>
+                            <p>Preço: <%= produto.preco %></p>
+                            <p>Desconto: <%= produto.desconto %></p>
+                            <p>Categoria: <%= produto.categoria %></p>
+                            <p>Estoque: <%= produto.estoque %></p>
+                          </li>
+                        <% }) %>
+                    </ul>
+
                    </a>
                </div>
    
@@ -113,9 +108,10 @@
                    </div>
                    <a href="" class="item">
                        <img src="" class="product-image" >
+                       <% Produtos.forEach(produto => { %>
                        <div class="description">
-                           <h4>Vestido Jamille</h4>
-                           <p>Tecido crepe foil, botões funcionais e cordão de ajuste de cintura</p>
+                           <h4><%= produto.nome %></h4>
+                           <p>Descrição: <%= produto.descricao %></p>
                            <p class="discount">R$196,00 </p>
                            <p><strong>186,00</strong></p>
                            <p>ou 6x de R$ 31,0</p>
@@ -132,6 +128,7 @@
                                </p>
                            </div>
                        </div>
+                       <% }) %>
                    </a>
                </div>
    

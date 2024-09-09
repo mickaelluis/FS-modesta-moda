@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 });
 
-
-import '../src/modules/Banner'
-import '..//src/modules/barraDePesquisa'
-import '..//src/modules/carrossel'
+import './assets/js/Banner'
+import './assets/js/barraDePesquisa'
+import './assets/js/carrossel'
+import './assets/js/CarrosselDinamico'

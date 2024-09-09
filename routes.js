@@ -5,7 +5,7 @@ const ProdutosController = require('./src/controllers/ProdutosController');
 
 
 // Rotas da home
-route.get('/',ProdutosController.index ,homeController.index );
+route.get('/',ProdutosController.index,homeController.index,  );
 
 
 

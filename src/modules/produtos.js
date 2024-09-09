@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema({
   preco: Number,
   desconto: String,
   categoria: String,
-  estoque: Number
+  estoque: Number,
 });
 
 const ProductModel = mongoose.model('Produtos', productSchema);

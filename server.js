@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect(process.env.CONNECTIONSTRING,
+mongoose.connect(process.env.DB_URL,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,7 +29,7 @@ app.use(express.static(path.resolve(__dirname, 'public')));
 
 const sessionOptions = session({
   secret: 'akasdfj0út23453456+54qt23qv  qwf qwer qwer qewr asdasdasda a6()',
-  store: MongoStore.create({ mongoUrl: process.env.CONNECTIONSTRING }),
+  store: MongoStore.create({ mongoUrl: process.env.DB_URL }),
   resave: false,
   saveUninitialized: false,
   cookie: {
@@ -51,8 +51,8 @@ app.use(csrfMiddleware);
 app.use(routes);
 
 app.on('pronto', () => {
-  app.listen(3000, () => {
-    console.log('Acessar http://localhost:3000');
-    console.log('Servidor executando na porta 3000');
+  app.listen(5000, () => {
+    console.log('Acessar http://localhost:5000');
+    console.log('Servidor executando na porta 5000');
   });
 });

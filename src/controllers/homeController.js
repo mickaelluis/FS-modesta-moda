@@ -1,3 +1,7 @@
-exports.paginaInicial = (req, res) => {
- res.render('index')
-}
+const homeController = {
+    index: (req, res) => {
+        res.render('index')
+    }
+};
+
+module.exports = homeController;
